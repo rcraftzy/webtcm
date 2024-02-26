@@ -1,0 +1,65 @@
+.to-top {
+    bottom: 0;
+    cursor: pointer;
+    margin: 0 8px 12px 0;
+    position: fixed;
+    right: 0;
+    opacity: 0;
+  }
+  
+  .show-scrollTop {
+    opacity: 1 !important;
+    transition: all 0.2s ease-in-out;
+  }
+  a {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #A7A8B4 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:before{
+    content: '';
+    background: #4ab3da;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+   background-position: 0;
+  }
+  
+  a:hover::before{
+    width: 100%;
+  }
+  
+  /* Presentational Styles */
+  body {
+    display: grid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    height: 100vh;
+    place-items: center;
+  }
+
+  a { transition: all 0.3s;}
+a:hover { color:green; font-size:104%;  } 
+a {
+  cursor: pointer;
+}

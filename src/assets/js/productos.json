@@ -1,0 +1,209 @@
+[
+    {
+        "id":"1",
+        "nombre":"Mando inalámbrico para PS4 o PC",
+        "descripcion":"Mejora tu experiencia de juego para con este fantástico mando inalámbrico diseñado para gamers",
+        "descripcion1":"Con este increíble mando, llevarás tu experiencia de juego a otro nivel, no solo por la comodidad que ofrece a la hora de jugar, sino también por la personalización que ofrece, dado que, incorpora un cambio de gatillos, de joysticks y de botones de dirección, para que puedas jugar a tu gusto.",
+        "detalles":[
+            {"detalle":"Compatible con PS4 y PC."},
+            {"detalle":"La batería ofrece varias horas de juego y es recargable."}
+        ],
+        "stock":"4",
+        "presio":"55,00",
+        "color":"negro",
+        "marca":"Otro",
+        "categoria":"Videojuegos",
+        "subcategoria":"Playstation",
+        "img":[
+            {"img":"assets/img/Principal-1-600x600.png"}
+        ]
+
+    },
+    {
+        "id":"2",
+        "nombre":"Mando inalámbrico para Xbox",
+        "descripcion":"Mando original de xbox para conectar a tu consola o a tu PC y así disfrutar de una mayor experiencia de juego.",
+        "descripcion1":"Disfruta del diseño modernizado del mando inalámbrico Xbox en color verde, con superficies esculpidas y una geometría refinada para una mayor comodidad y un control sin esfuerzo durante el juego, con un uso de la batería de hasta 40 horas.",
+        "detalles":[
+            {"detalle":"Mantén el objetivo en el blanco con la cruceta híbrida, la empuñadura texturizada en los gatillos, los parachoques y la carcasa trasera. Conecta cualquier auricular compatible con el conector para auriculares de audio de 3,5 mm."},
+            {"detalle":"Conéctelo mediante el puerto USB-C para conectar y usar directamente a la consola o al PC. El soporte para baterías AA está incluido en la parte trasera."},
+            {"detalle":"Capture y comparta contenido sin problemas con el botón Compartir."},
+            {"detalle":"Usa Xbox Wireless o Bluetooth para jugar en dispositivos Xbox Series X|S, Xbox One y Windows 10/11."},
+            {"detalle":"Compatible con dispositivos Xbox Series X|S, Xbox One y Windows 10/11."}
+        ],
+        "stock":"1",
+        "presio":"150,00",
+        "color":"Verde",
+        "marca":"Microsoft",
+        "categoria":" Videojuegos",
+        "subcategoria":" Xbox ",
+        "img":[
+            {"img":"assets/img/Mando-300x300.png"}
+        ]
+
+    },
+    {
+        "id":"3",
+        "nombre":"Mando inalámbrico PS5 DualSense",
+        "descripcion":"Retroalimentación háptica: Siente la respuesta física a tus acciones en el juego con actuadores dobles que sustituyen a los motores vibratorios tradicionales. En tus manos, estas vibraciones dinámicas pueden simular la sensación de todo, desde el entorno hasta el retroceso de diferentes armas. Disparadores adaptativos: experimenta distintos niveles de fuerza y tensión a medida que interactúas con el equipo y los entornos del juego. Desde tirar de una cuerda de arco cada vez más apretada hasta frenar un coche que va a toda velocidad, siéntete conectado físicamente con tus acciones en pantalla. Conector integrado para micrófono y auriculares: chatee con amigos en línea con el micrófono incorporado o conectando unos auriculares a la toma de 3,5 mm. Activa y desactiva fácilmente la captura de voz en cualquier momento con el botón de silencio dedicado. Se requiere Internet y una cuenta para PlayStation Network.",
+        "descripcion1":"El DualSense ha mantenido lo que a los jugadores les encanta del DualShock 4, a la vez que añade nuevas funciones y perfecciona el diseño. El DualSense tiene activadores adaptativos integrados en los botones L2 y R2 para que puedas sentir realmente la tensión de tus acciones, una gran duración de la batería con batería recargable y, al mismo tiempo, mantener el mando ligero. Desde el éxito del botón Compartir de PlayStation, el primero en la industria, te ofrecen una nueva función de botón Crear. Con Create, hay nuevas formas para que los jugadores creen contenido de juego épico para compartir con el mundo o simplemente para disfrutar por sí mismos, y habrá más detalles sobre esta función por venir. Cuando se trata de colores, DualSense tiene un diseño de dos tonos y una posición diferente de la barra de luz que se encuentra a cada lado del panel táctil, lo que le dará un toque extra. El objetivo de Playstation con DualSense es dar a los jugadores la sensación de ser transportados al mundo del juego en cuanto abren la caja.",
+        "detalles":[ ],
+        "stock":"1",
+        "presio":"105,00",
+        "color":"Blanco",
+        "marca":"Sony",
+        "categoria":"Videojuegos",
+        "subcategoria":"Playstation ",
+        "img":[
+            {"img":"assets/img/Principal-300x300.png"}
+        ]
+
+    },
+    {
+        "id":"4",
+        "nombre":"Payaso coleccionable IT",
+        "descripcion":"Agrega una nueva figura a tu colección con este increíble y terrorífico payaso IT",
+        "descripcion1":"Juguete coleccionable del payaso IT en una caja con cubierta plástica con tapa.",
+        "detalles":[
+            {"detalle":"Incluye el cambio de algunas piezas como la cabeza o las manos."}
+        ],
+        "stock":"1",
+        "presio":"30,00",
+        "color":"",
+        "marca":"otro",
+        "categoria":" Coleccionables",
+        "subcategoria":"Juguetes",
+        "img":[
+            {"img":"assets/img/Payaso-IT.png"}
+        ]
+
+    },
+    
+    {
+        "id":"6",
+        "nombre":"Set gaming (con teclado, auriculares, ratón y alfombrilla para ratón) para pc",
+        "descripcion":"Lleva tu experiencia de juego a otro nivel con este set para gamers el cual incluye una alfombrilla para ratón, un ratón, unos increíbles auriculares y un fabuloso teclado, estos tres últimos artículos cuentan con iluminación RGB para una mayor inmersión en el mundo del gaming.",
+        "descripcion1":"Fantástico kit diseñado para el gaming o para el día a día en la informática.",
+        "detalles":[
+            {"detalle":"Ratón para juegos, teclado de membrana con cable para juegos con retroiluminación LED multicolor, anti-ghosting con pulsaciones suaves que permiten una acción rápida en silencio, teclas de control de medios, teclas de función del modo de juego y patas ajustables para comodidad de la muñeca."},
+            {"detalle":"Luces RGB para la mejor experiencia de juego en PC."},
+            {"detalle":"Los auriculares para juegos incluidos tienen sonido estéreo para graves profundos y agudos nítidos, almohadillas suaves para sesiones prolongadas, micrófono plegable con controles de cable de volumen y un conector de audio versátil de 3,5 mm"},
+            {"detalle":"Sistema Operativo: Apto para Windows 8/10/11"},
+            {"detalle":"Interfaz: USB de color negro"},
+            {"detalle":"Material: policarbonato + ABS."},
+            {"detalle":"Tamaño: 44,5 x 17,2 x 13 cm"},
+            {"detalle":"Contenidos del paquete:"},
+            {"detalle":"1 teclado para juegos."},
+            {"detalle":"1 auricular"},
+            {"detalle":"1 alfombrilla de ratón."},
+            {"detalle":"1 ratón"}
+
+        ],
+        "stock":"1",
+        "presio":"32,00",
+        "color":"Negro",
+        "marca":"Otro",
+        "categoria":"Gadgets ",
+        "subcategoria":"Periféricos",
+        "img":[
+            {"img":"assets/img/Set-gaming.png"}
+        ]
+
+    },
+    {
+        "id":"7",
+        "nombre":"Sudadera crop tops",
+        "descripcion":"Lleva tu experiencia de juego a otro nivel con este set para gamers el cual incluye una alfombrilla para ratón, un ratón, unos increíbles auriculares y un fabuloso teclado, estos tres últimos artículos cuentan con iluminación RGB para una mayor inmersión en el mundo del gaming.",
+        "descripcion1":"Fantástico kit diseñado para el gaming o para el día a día en la informática.",
+        "detalles":[
+            {"detalle":"Ratón para juegos, teclado de membrana con cable para juegos con retroiluminación LED multicolor, anti-ghosting con pulsaciones suaves que permiten una acción rápida en silencio, teclas de control de medios, teclas de función del modo de juego y patas ajustables para comodidad de la muñeca."},
+            {"detalle":"Luces RGB para la mejor experiencia de juego en PC."},
+            {"detalle":"Los auriculares para juegos incluidos tienen sonido estéreo para graves profundos y agudos nítidos, almohadillas suaves para sesiones prolongadas, micrófono plegable con controles de cable de volumen y un conector de audio versátil de 3,5 mm"},
+            {"detalle":"Sistema Operativo: Apto para Windows 8/10/11"},
+            {"detalle":"Interfaz: USB de color negro"},
+            {"detalle":"Material: policarbonato + ABS."},
+            {"detalle":"Tamaño: 44,5 x 17,2 x 13 cm"},
+            {"detalle":"Contenidos del paquete:"},
+            {"detalle":"1 teclado para juegos."},
+            {"detalle":"1 auricular"},
+            {"detalle":"1 alfombrilla de ratón."},
+            {"detalle":"1 ratón"}
+
+        ],
+        "stock":"1",
+        "presio":"18,00",
+        "color":"Negro",
+        "marca":"Otro",
+        "categoria":"Gadgets ",
+        "subcategoria":"Periféricos",
+        "img":[
+            {"img":"assets/img/Crop-tops.png"}
+        ]
+
+    },
+    {
+        "id":"8",
+        "nombre":"Pantalla LED Touch nv156fhm-n3d",
+        "descripcion":"Lleva tu experiencia de juego a otro nivel con este set para gamers el cual incluye una alfombrilla para ratón, un ratón, unos increíbles auriculares y un fabuloso teclado, estos tres últimos artículos cuentan con iluminación RGB para una mayor inmersión en el mundo del gaming.",
+        "descripcion1":"Fantástico kit diseñado para el gaming o para el día a día en la informática.",
+        "detalles":[
+            {"detalle":"Ratón para juegos, teclado de membrana con cable para juegos con retroiluminación LED multicolor, anti-ghosting con pulsaciones suaves que permiten una acción rápida en silencio, teclas de control de medios, teclas de función del modo de juego y patas ajustables para comodidad de la muñeca."},
+            {"detalle":"Luces RGB para la mejor experiencia de juego en PC."},
+            {"detalle":"Los auriculares para juegos incluidos tienen sonido estéreo para graves profundos y agudos nítidos, almohadillas suaves para sesiones prolongadas, micrófono plegable con controles de cable de volumen y un conector de audio versátil de 3,5 mm"},
+            {"detalle":"Sistema Operativo: Apto para Windows 8/10/11"},
+            {"detalle":"Interfaz: USB de color negro"},
+            {"detalle":"Material: policarbonato + ABS."},
+            {"detalle":"Tamaño: 44,5 x 17,2 x 13 cm"},
+            {"detalle":"Contenidos del paquete:"},
+            {"detalle":"1 teclado para juegos."},
+            {"detalle":"1 auricular"},
+            {"detalle":"1 alfombrilla de ratón."},
+            {"detalle":"1 ratón"}
+
+        ],
+        "stock":"1",
+        "presio":"210",
+        "color":"Negro",
+        "marca":"Otro",
+        "categoria":"Gadgets ",
+        "subcategoria":"Periféricos",
+        "img":[
+            {"img":"assets/img/nv156fhm-n3d.png"}
+        ]
+
+    },
+    {
+        "id":"9",
+        "nombre":"nikon D800",
+        "descripcion":"Lleva tu experiencia de juego a otro nivel con este set para gamers el cual incluye una alfombrilla para ratón, un ratón, unos increíbles auriculares y un fabuloso teclado, estos tres últimos artículos cuentan con iluminación RGB para una mayor inmersión en el mundo del gaming.",
+        "descripcion1":"Fantástico kit diseñado para el gaming o para el día a día en la informática.",
+        "detalles":[
+            {"detalle":"Ratón para juegos, teclado de membrana con cable para juegos con retroiluminación LED multicolor, anti-ghosting con pulsaciones suaves que permiten una acción rápida en silencio, teclas de control de medios, teclas de función del modo de juego y patas ajustables para comodidad de la muñeca."},
+            {"detalle":"Luces RGB para la mejor experiencia de juego en PC."},
+            {"detalle":"Los auriculares para juegos incluidos tienen sonido estéreo para graves profundos y agudos nítidos, almohadillas suaves para sesiones prolongadas, micrófono plegable con controles de cable de volumen y un conector de audio versátil de 3,5 mm"},
+            {"detalle":"Sistema Operativo: Apto para Windows 8/10/11"},
+            {"detalle":"Interfaz: USB de color negro"},
+            {"detalle":"Material: policarbonato + ABS."},
+            {"detalle":"Tamaño: 44,5 x 17,2 x 13 cm"},
+            {"detalle":"Contenidos del paquete:"},
+            {"detalle":"1 teclado para juegos."},
+            {"detalle":"1 auricular"},
+            {"detalle":"1 alfombrilla de ratón."},
+            {"detalle":"1 ratón"}
+
+        ],
+        "stock":"1",
+        "presio":"600",
+        "color":"Negro",
+        "marca":"Otro",
+        "categoria":"Gadgets ",
+        "subcategoria":"Periféricos",
+        "img":[
+            {"img":"assets/img/nikon d800.jpg"}
+        ]
+
+    }
+
+
+]
+

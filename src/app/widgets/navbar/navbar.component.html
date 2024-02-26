@@ -1,0 +1,40 @@
+
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+
+<nav
+class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
+>
+<a (click)="inicio()"  class="navbar-brand d-flex align-items-center">
+  <h2 class="m-0" style="color:#0d6efd">
+    <img
+      class="img-fluid me-3"
+      src="assets/img/icon/logo.png"
+      alt=""
+        /> 
+  </h2>
+</a>
+<button
+  type="button"
+  class="navbar-toggler"
+  data-bs-toggle="collapse"
+  data-bs-target="#navbarCollapse"
+>
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarCollapse">
+  <div class="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
+    <a (click)="inicio()" *ngIf="inicioac" class="nav-item nav-link active">Inicio</a>
+    <a (click)="inicio()" *ngIf="!inicioac" class="nav-item nav-link ">Inicio</a>
+
+    <a (click)="repairs()" *ngIf="repairsac" class="nav-item nav-link active">Reparaciones</a>
+    <a (click)="repairs()" *ngIf="!repairsac" class="nav-item nav-link">Reparaciones</a>
+
+    <a (click)="ourcontent()" *ngIf="ourcontentac" class="nav-item nav-link active">Nuestro Contenido</a>
+    <a (click)="ourcontent()" *ngIf="!ourcontentac" class="nav-item nav-link">Nuestro Contenido</a>
+   
+    <a (click)="products()"  *ngIf="productsac"  class="nav-item nav-link active">Productos</a>
+    <a (click)="products()"  *ngIf="!productsac"  class="nav-item nav-link">Productos</a>
+  </div>
+

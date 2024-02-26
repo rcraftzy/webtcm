@@ -1,0 +1,41 @@
+
+.imagen, .imagen:before, .imagen  {
+  height: 250px; /* Le asignas el alto a la imagen */
+  width: 300px; /* Le asignas el ancho a la imagen */
+}
+.imagen {
+   position: relative;
+}
+.imagen:before {
+  
+   content: "";
+   position: absolute;
+   top: 0px;
+   left: 0px;    
+   background: transparent;
+   transition: background .2s linear;
+   
+}
+.imagen:hover:before {
+   background: rgba(0, 0, 0, 0.5);  /* Este es el fondo negro transparente que oscurece la imagen, los primeros 3 números son los rgb, y el ultimo es la transparencia, si fuera "0.0" estaría completamente transparente y con "1" completamente negro. */
+
+  }
+img{
+  height: 250px; /* Le asignas el alto a la imagen */
+  width: 300px;
+  background-size: cover;
+}
+
+ p,a {
+    cursor: pointer;
+  }
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+

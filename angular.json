@@ -1,0 +1,105 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "websiteTCM": {
+      "projectType": "application",
+      "schematics": {},
+      "root": "",
+      "sourceRoot": "src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "outputPath": "dist/website-tcm",
+            "index": "src/index.html",
+            "main": "src/main.ts",
+            "polyfills": ["zone.js"],
+            "tsConfig": "tsconfig.app.json",
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": [
+              "src/styles.css",
+              "node_modules/bootstrap-icons/font/bootstrap-icons.min.css",    
+              "src/assets/lib/animate/animate.min.css",
+              "src/assets/lib/owlcarousel/assets/owl.carousel.min.css"    ,         
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+             "src/assets/css/style.css" 
+            ],
+            "scripts": [
+              
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/assets/lib/wow/wow.js",
+              "src/assets/lib/easing/easing.min.js",
+              "src/assets/lib/waypoints/waypoints.min.js",
+              "src/assets/lib/owlcarousel/owl.carousel.min.js",
+              "src/assets/lib/counterup/counterup.min.js",
+              "src/assets/js/main.js"
+              
+
+            ]
+          },
+          "configurations": {
+            "production": {
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "50000kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "development": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "configurations": {
+            "production": {
+              "browserTarget": "websiteTCM:build:production"
+            },
+            "development": {
+              "browserTarget": "websiteTCM:build:development"
+            }
+          },
+          "defaultConfiguration": "development"
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "browserTarget": "websiteTCM:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "polyfills": ["zone.js", "zone.js/testing"],
+            "tsConfig": "tsconfig.spec.json",
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
+            "scripts": []
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "d11c4399-1abb-43f4-ad09-cbfb15e6c696"
+  }
+}

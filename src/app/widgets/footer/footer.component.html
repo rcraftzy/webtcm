@@ -1,0 +1,74 @@
+<div
+class="container-fluid bg-dark footer mt-5 pt-5 wow fadeIn"
+data-wow-delay="0.1s"
+>
+<div class="container py-5">
+  <div class="row g-5">
+    <div class="col-lg-3 col-md-6">
+      <h1 class="text-white mb-4">
+        <img
+          class="img-fluid me-3"
+          src="assets/img/icon/logo.png"
+          alt=""
+          
+        />
+      </h1>
+      <p>
+        « Profesionales a su servicio »
+      </p>
+      <div class="d-flex pt-2 ">
+        
+        <a class="btn btn-square "(click)="abrirLink('https://www.facebook.com/teamcellmania')"
+          ><i class="bi bi-facebook"></i
+        ></a>
+        <a class="btn btn-square me-1" (click)="abrirLink('https://www.instagram.com/teamcellmania/')"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <a class="btn btn-square me-1" (click)="abrirLink('https://www.youtube.com/@teamcellmania877')"
+          ><i class="bi bi-youtube"></i
+        ></a>
+        <a class="btn btn-square me-0" (click)="abrirLink('https://www.tiktok.com/@teamcellmania_13?_t=8aocA7rf4gY&_r=1')"
+          ><i class="bi bi-tiktok"></i
+        ></a>
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <h5 class="text-light mb-4">Dirección</h5>
+      <p>
+       <a class="link link--elara" (click)="abrirLink('https://www.google.com.ec/maps/place/TeamCellmania/@-2.7396957,-78.8484405,19z/data=!4m6!3m5!1s0x91cd12a4a32b35b5:0x48bceba85d6b77f5!8m2!3d-2.7397863!4d-78.8483567!16s%2Fg%2F11c52849_q?hl=es&coh=164777&entry=tt&shorturl=1')" ><i class="bi bi-geo-alt-fill me-3"></i>C. Luis Cordero Crespo 4-17, y Antonio José de Sucre
+       </a></p>
+      <h5 class="text-light mb-4">Contáctenos</h5>
+      <p><a (click)="abrirLink('https://api.whatsapp.com/send/?phone=593963644323&text&type=phone_number&app_absent=0')" ><i class="bi bi-phone me-3"></i>+593 96 364 4323</a></p>
+      <p><a  ><i class="bi bi-envelope-open me-3"></i>ventas@teamcellmania.com</a></p>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <h5 class="text-light mb-4">Términos y condiciones</h5>
+      <p><a (click)="termsconditions()">Términos y condiciones</a></p>
+      <p><a (click)="privacypolicies()">Políticas de privacidad</a></p>
+        <p><a (click)="mission()">Misión & Visión</a></p>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <h5 class="text-light mb-4">Sucursales</h5>
+      <p>
+        <a (click)="abrirLink('https://www.google.com.ec/maps/place/Cellmania+2/@-2.7382574,-78.8478949,18z/data=!4m6!3m5!1s0x91cd12a5aa6b93b1:0x82e3d0129522fb33!8m2!3d-2.7376191!4d-78.8468119!16s%2Fg%2F11gdl0k2g8?hl=es&entry=ttu')" > <i class="bi bi-geo-alt-fill me-3"></i>C. Simón Bolivar, Azogues</a>
+      </p>
+      <p>
+        <a (click)="abrirLink('https://www.google.com.ec/maps/place/Teamcellmania3/@-2.7382574,-78.8478949,18z/data=!4m6!3m5!1s0x91cd1368dbe35f8d:0xad61c97871b46983!8m2!3d-2.7368045!4d-78.8472221!16s%2Fg%2F11q95f3jdk?hl=es&entry=ttu')" > <i class="bi bi-geo-alt-fill me-3"></i>C. Julio María Matovelle, Azogues</a>
+      </p>
+      <p>
+        <a (click)="abrirLink('https://www.google.com.ec/maps/place/2%C2%B042\'44.2%22S+78%C2%B053\'22.7%22W/@-2.71228,-78.889634,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-2.71228!4d-78.889634?entry=ttu')"><i class="bi bi-geo-alt-fill me-3"></i>C. Benjamín Ochoa y Av. Mariscal Sucre</a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<!-- Footer End -->
+
+<!-- Back to Top -->
+<!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+><i class="bi bi-arrow-up"></i
+></a> -->
+<!-- Back to top button -->
+<div class="to-top" (click)="scrollToTop()" [ngClass]="{ 'show-scrollTop': windowScrolled }">
+  <img src="assets/img/up-arrow.png" alt="to-top-icon" width="50" height="50" />
+</div>
