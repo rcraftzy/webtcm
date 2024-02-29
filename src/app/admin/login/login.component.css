@@ -1,0 +1,76 @@
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("src/assets/img/trianglify-lowres.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+}
+div {
+  margin: 0 auto;
+  min-width: 360px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  backdrop-filter: blur(4px);
+  padding: 44px;
+  box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 40px;
+  gap: 4px;
+}
+.passwordlabel {
+  margin-top: 12px;
+}
+
+input {
+  border: 2px solid #d2d2d2;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 10px;
+  transition: border-color 0.4s ease; /* Transición en el color del borde */
+}
+input:focus {
+  outline: none;
+  border: 2px solid #000;
+  border-color: #000;
+}
+
+label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333;
+  margin: 0 10px;
+}
+button {
+  margin-top: 20px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 16px;
+}
+button:hover {
+  transition: ease 0.4s;
+  background: #000;
+}
+img {
+  height: 84px;
+  width: auto;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0px;
+}

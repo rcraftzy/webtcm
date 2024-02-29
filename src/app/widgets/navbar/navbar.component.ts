@@ -15,68 +15,66 @@ export class NavbarComponent {
   productsac = false;
   ngOnInit(): void {
     var URLactual = window.location;
-    var pathname=URLactual.pathname.split("/")
-    this.activeitem(pathname[1])
-console.log(pathname[1])
-
+    var pathname = URLactual.pathname.split('/');
+    this.activeitem(pathname[1]);
+    console.log(pathname[1]);
   }
   inicio() {
     this.router.navigate(['']);
-    this.activeitem('')
+    this.activeitem('');
   }
   repairs() {
-    this.router.navigate(['repairs']);
-    this.activeitem('repairs')
+    this.router.navigate(['/repairs']);
+    this.activeitem('repairs');
   }
 
   ourcontent() {
     this.router.navigate(['our-content']);
-    this.activeitem('our-content')
+    this.activeitem('our-content');
   }
   products() {
     this.router.navigate(['products']);
-    this.activeitem('products')
+    this.activeitem('products');
   }
-
 
   activeitem(item) {
     switch (item) {
-      case "":
+      case '':
         this.inicioac = true;
         this.repairsac = false;
         this.ourcontentac = false;
         this.productsac = false;
         break;
-      case  "repairs":
+      case 'repairs':
         this.inicioac = false;
         this.repairsac = true;
         this.ourcontentac = false;
         this.productsac = false;
         break;
-        case"our-repairsone":
+      case 'our-repairsone':
         this.inicioac = false;
         this.repairsac = true;
         this.ourcontentac = false;
         this.productsac = false;
-        break
-      case "our-content":
+        break;
+      case 'our-content':
         this.inicioac = false;
         this.repairsac = false;
         this.ourcontentac = true;
         this.productsac = false;
         break;
-      case "products":
+      case 'products':
         this.inicioac = false;
         this.repairsac = false;
         this.ourcontentac = false;
         this.productsac = true;
         break;
-        case "our-repairsone"||"termsconditions" ||"mission&vision":
-          this.inicioac = false;
-          this.repairsac = false;
-          this.ourcontentac = false;
-          this.productsac = false;
-          break;
+      case 'our-repairsone' || 'termsconditions' || 'mission&vision':
+        this.inicioac = false;
+        this.repairsac = false;
+        this.ourcontentac = false;
+        this.productsac = false;
+        break;
     }
   }
 }

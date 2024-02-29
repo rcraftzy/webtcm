@@ -1,0 +1,22 @@
+<section>
+  <div>
+    <header>
+      <img src="/assets/img/icon/logo.png" alt="logo" />
+    </header>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <label>Usuario</label>
+      <input
+        formControlName="name_user"
+        type="text"
+        placeholder="Nombre de usuario"
+      />
+      <label class="passwordlabel">Contraseña</label>
+      <input
+        formControlName="password_user"
+        type="password"
+        placeholder="Contraseña"
+      />
+      <button type="submit">Iniciar sesión</button>
+    </form>
+  </div>
+</section>
